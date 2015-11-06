@@ -18,7 +18,6 @@
 PRODUCT_PACKAGES += \
 	libtime_genoff \
 	libHevcSwDecoder \
-	libTimeService \
-	TimeService
+	libTimeService
 
 $(call inherit-product, vendor/samsung/ms013g/ms013g-vendor-blobs.mk)
